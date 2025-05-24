@@ -1,0 +1,96 @@
+# Python Logging Agent Configuration
+# This file contains the default configuration for the logging agent
+
+# General settings
+general:
+  service_name: "PythonLoggingAgent"
+  log_level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  buffer_size: 1000  # Maximum number of logs to buffer
+  processing_interval: 5  # Seconds between processing cycles
+
+# Log collection settings
+collection:
+  # Windows Event Logs
+  event_logs:
+    enabled: true
+    sources:
+      - "System"
+      - "Application"
+      - "Security"
+    max_records: 100  # Maximum records to collect per cycle
+    
+  # Security Logs
+  security_logs:
+    enabled: true
+    include_authentication: true
+    include_policy_changes: true
+    include_privilege_use: true
+    
+  # Application Logs
+  application_logs:
+    enabled: true
+    sources:
+      - "Application"
+      - "Microsoft-Windows-*"
+    
+  # System Logs
+  system_logs:
+    enabled: true
+    include_hardware: true
+    include_drivers: true
+    include_services: true
+    
+  # Network Logs
+  network_logs:
+    enabled: true
+    include_connections: true
+    include_interface_changes: true
+    
+  # Packet Capture
+  packet_capture:
+    enabled: false  # Requires elevated privileges
+    interface: "auto"  # Network interface to capture on
+    filter: ""  # BPF filter expression
+    max_packets: 50  # Maximum packets per cycle
+
+# Log standardization settings
+standardization:
+  output_format: "json"
+  include_raw_data: false  # Include original log data
+  timestamp_format: "iso8601"
+  add_hostname: true
+  add_source_metadata: true
+
+# Output settings
+output:
+  # File output
+  file:
+    enabled: true
+    path: "logs/standardized_logs.json"
+    rotation:
+      enabled: true
+      max_size: "100MB"
+      backup_count: 5
+      
+  # Console output (for testing)
+  console:
+    enabled: false
+    
+  # Syslog output (future enhancement)
+  syslog:
+    enabled: false
+    host: "localhost"
+    port: 514
+
+# Performance settings
+performance:
+  max_cpu_percent: 10  # Maximum CPU usage percentage
+  max_memory_mb: 256   # Maximum memory usage in MB
+  worker_threads: 2    # Number of worker threads
+
+# Error handling
+error_handling:
+  log_errors: true
+  error_log_path: "logs/agent_errors.log"
+  retry_attempts: 3
+  retry_delay: 5  # Seconds between retries
