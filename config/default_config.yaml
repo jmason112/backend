@@ -4,9 +4,9 @@
 # General settings
 general:
   service_name: "PythonLoggingAgent"
-  log_level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
-  buffer_size: 1000  # Maximum number of logs to buffer
-  processing_interval: 5  # Seconds between processing cycles
+  log_level: "INFO" # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  buffer_size: 1000 # Maximum number of logs to buffer
+  processing_interval: 5 # Seconds between processing cycles
 
 # Log collection settings
 collection:
@@ -16,14 +16,12 @@ collection:
     sources:
       - "System"
       - "Application"
-      # Note: Security log requires administrator privileges
-      # Uncomment the line below if running as administrator
-      # - "Security"
+      - "Security"
     max_records: 100  # Maximum records to collect per cycle
 
   # Security Logs
   security_logs:
-    enabled: false
+    enabled: true
     include_authentication: true
     include_policy_changes: true
     include_privilege_use: true
@@ -33,12 +31,8 @@ collection:
     enabled: true
     sources:
       - "Application"
-      # Specific Microsoft Windows logs (safer than wildcards)
-      - "Microsoft-Windows-Kernel-General"
-      # Note: Microsoft-Windows-Security-Auditing requires administrator privileges
-      # Uncomment the line below if running as administrator
-      # - "Microsoft-Windows-Security-Auditing"
-
+      - "Microsoft-Windows-*"
+    
   # System Logs
   system_logs:
     enabled: true
@@ -54,15 +48,15 @@ collection:
 
   # Packet Capture
   packet_capture:
-    enabled: false  # Requires elevated privileges
-    interface: "auto"  # Network interface to capture on
-    filter: ""  # BPF filter expression
-    max_packets: 50  # Maximum packets per cycle
+    enabled: false # Requires elevated privileges
+    interface: "auto" # Network interface to capture on
+    filter: "" # BPF filter expression
+    max_packets: 50 # Maximum packets per cycle
 
 # Log standardization settings
 standardization:
   output_format: "json"
-  include_raw_data: false  # Include original log data
+  include_raw_data: false # Include original log data
   timestamp_format: "iso8601"
   add_hostname: true
   add_source_metadata: true
@@ -90,13 +84,13 @@ output:
 
 # Performance settings
 performance:
-  max_cpu_percent: 10  # Maximum CPU usage percentage
-  max_memory_mb: 256   # Maximum memory usage in MB
-  worker_threads: 2    # Number of worker threads
+  max_cpu_percent: 10 # Maximum CPU usage percentage
+  max_memory_mb: 256 # Maximum memory usage in MB
+  worker_threads: 2 # Number of worker threads
 
 # Error handling
 error_handling:
   log_errors: true
   error_log_path: "logs/agent_errors.log"
   retry_attempts: 3
-  retry_delay: 5  # Seconds between retries
+  retry_delay: 5 # Seconds between retries
