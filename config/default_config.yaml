@@ -16,36 +16,42 @@ collection:
     sources:
       - "System"
       - "Application"
-      - "Security"
+      # Note: Security log requires administrator privileges
+      # Uncomment the line below if running as administrator
+      # - "Security"
     max_records: 100  # Maximum records to collect per cycle
-    
+
   # Security Logs
   security_logs:
-    enabled: true
+    enabled: false
     include_authentication: true
     include_policy_changes: true
     include_privilege_use: true
-    
+
   # Application Logs
   application_logs:
     enabled: true
     sources:
       - "Application"
-      - "Microsoft-Windows-*"
-    
+      # Specific Microsoft Windows logs (safer than wildcards)
+      - "Microsoft-Windows-Kernel-General"
+      # Note: Microsoft-Windows-Security-Auditing requires administrator privileges
+      # Uncomment the line below if running as administrator
+      # - "Microsoft-Windows-Security-Auditing"
+
   # System Logs
   system_logs:
     enabled: true
     include_hardware: true
     include_drivers: true
     include_services: true
-    
+
   # Network Logs
   network_logs:
     enabled: true
     include_connections: true
     include_interface_changes: true
-    
+
   # Packet Capture
   packet_capture:
     enabled: false  # Requires elevated privileges
@@ -71,11 +77,11 @@ output:
       enabled: true
       max_size: "100MB"
       backup_count: 5
-      
+
   # Console output (for testing)
   console:
     enabled: false
-    
+
   # Syslog output (future enhancement)
   syslog:
     enabled: false
