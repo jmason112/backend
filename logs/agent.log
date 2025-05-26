@@ -1,0 +1,120 @@
+2025-05-26 10:31:42 - root - INFO - Event Log Collector initialized
+2025-05-26 10:31:42 - root - INFO - Security Log Collector initialized
+2025-05-26 10:31:42 - root - INFO - Application Log Collector initialized
+2025-05-26 10:31:42 - root - INFO - System Log Collector initialized
+2025-05-26 10:31:42 - root - INFO - Network Log Collector initialized
+2025-05-26 10:31:42 - root - INFO - Logging Agent initialized successfully
+2025-05-26 10:31:42 - root - INFO - Logging Agent started successfully
+2025-05-26 10:31:42 - audit_logger - INFO - Python Logging Agent service started
+2025-05-26 10:31:42 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log System: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:31:42 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Application: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:31:42 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Security: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-26 10:31:42 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Security: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-26 10:31:42 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Microsoft-Windows-*: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:31:42 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Application: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:31:42 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log System: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:31:47 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log System: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:31:47 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Application: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:31:47 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Security: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-26 10:31:47 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Security: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-26 10:31:47 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Microsoft-Windows-*: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:31:47 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Application: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:31:47 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log System: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:31:52 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log System: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:31:52 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Application: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:31:52 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Security: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-26 10:31:52 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Security: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-26 10:31:52 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Microsoft-Windows-*: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:31:52 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Application: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:31:52 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log System: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:31:53 - root - INFO - Stopping Logging Agent...
+2025-05-26 10:31:54 - root - INFO - Logging Agent stopped successfully
+2025-05-26 10:31:54 - audit_logger - INFO - Python Logging Agent service stopped
+2025-05-26 10:32:48 - root - INFO - Event Log Collector initialized
+2025-05-26 10:32:48 - root - INFO - Application Log Collector initialized
+2025-05-26 10:32:48 - root - INFO - System Log Collector initialized
+2025-05-26 10:32:48 - root - INFO - Network Log Collector initialized
+2025-05-26 10:32:48 - root - INFO - Logging Agent initialized successfully
+2025-05-26 10:32:48 - root - INFO - Logging Agent started successfully
+2025-05-26 10:32:48 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log System: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:32:48 - audit_logger - INFO - Python Logging Agent service started
+2025-05-26 10:32:48 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Application: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:32:48 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Security: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-26 10:32:48 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Application: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:32:48 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Microsoft-Windows-*: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:32:48 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log System: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:32:53 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log System: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:32:53 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Application: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:32:53 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Security: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-26 10:32:53 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Application: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:32:53 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Microsoft-Windows-*: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:32:53 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log System: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:32:58 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log System: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:32:58 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Application: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:32:58 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Security: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-26 10:32:58 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Application: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:32:58 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Microsoft-Windows-*: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:32:58 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log System: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:33:00 - logging_agent.collectors.event_log_collector - WARNING - Access test failed for Security: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-26 10:33:01 - root - INFO - Stopping Logging Agent...
+2025-05-26 10:33:02 - root - INFO - Logging Agent stopped successfully
+2025-05-26 10:33:02 - audit_logger - INFO - Python Logging Agent service stopped
+2025-05-26 10:39:07 - root - INFO - Event Log Collector initialized
+2025-05-26 10:39:07 - root - INFO - Application Log Collector initialized
+2025-05-26 10:39:07 - root - INFO - System Log Collector initialized
+2025-05-26 10:39:07 - root - INFO - Network Log Collector initialized
+2025-05-26 10:39:07 - root - INFO - Logging Agent initialized successfully
+2025-05-26 10:39:07 - root - INFO - Logging Agent started successfully
+2025-05-26 10:39:07 - audit_logger - INFO - Python Logging Agent service started
+2025-05-26 10:39:07 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log System: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:39:07 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Application: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:39:07 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Security: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-26 10:39:07 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Microsoft-Windows-*: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:39:07 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Application: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:39:07 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log System: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:39:12 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log System: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:39:12 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Application: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:39:12 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Security: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-26 10:39:12 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Microsoft-Windows-*: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:39:12 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Application: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:39:12 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log System: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:39:17 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log System: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:39:17 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Application: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:39:17 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Security: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-26 10:39:17 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Microsoft-Windows-*: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:39:17 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Application: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:39:17 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log System: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:39:22 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log System: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:39:22 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Application: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:39:22 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Security: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-26 10:39:22 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Microsoft-Windows-*: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:39:22 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Application: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:39:22 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log System: (87, 'ReadEventLog', 'The parameter is incorrect.')
+2025-05-26 10:39:26 - root - INFO - Stopping Logging Agent...
+2025-05-26 10:39:27 - root - INFO - Logging Agent stopped successfully
+2025-05-26 10:39:27 - audit_logger - INFO - Python Logging Agent service stopped
+2025-05-26 10:43:28 - root - INFO - Event Log Collector initialized
+2025-05-26 10:43:28 - root - INFO - Application Log Collector initialized
+2025-05-26 10:43:28 - root - INFO - System Log Collector initialized
+2025-05-26 10:43:28 - root - INFO - Network Log Collector initialized
+2025-05-26 10:43:28 - root - INFO - Logging Agent initialized successfully
+2025-05-26 10:43:29 - root - INFO - Logging Agent started successfully
+2025-05-26 10:43:29 - audit_logger - INFO - Python Logging Agent service started
+2025-05-26 10:43:29 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Microsoft-Windows-Security-Auditing: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-26 10:43:34 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Microsoft-Windows-Security-Auditing: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-26 10:43:39 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Microsoft-Windows-Security-Auditing: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-26 10:43:44 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Microsoft-Windows-Security-Auditing: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-26 10:43:49 - logging_agent.collectors.event_log_collector - ERROR - Error accessing event log Microsoft-Windows-Security-Auditing: (1314, 'OpenEventLogW', 'A required privilege is not held by the client.')
+2025-05-26 10:43:50 - root - INFO - Stopping Logging Agent...
+2025-05-26 10:43:50 - root - INFO - Logging Agent stopped successfully
+2025-05-26 10:43:50 - audit_logger - INFO - Python Logging Agent service stopped
+2025-05-26 10:44:15 - root - INFO - Event Log Collector initialized
+2025-05-26 10:44:15 - root - INFO - Application Log Collector initialized
+2025-05-26 10:44:15 - root - INFO - System Log Collector initialized
+2025-05-26 10:44:15 - root - INFO - Network Log Collector initialized
+2025-05-26 10:44:15 - root - INFO - Logging Agent initialized successfully
+2025-05-26 10:44:15 - root - INFO - Logging Agent started successfully
+2025-05-26 10:44:15 - audit_logger - INFO - Python Logging Agent service started
+2025-05-26 10:44:49 - root - INFO - Stopping Logging Agent...
+2025-05-26 10:44:49 - root - INFO - Logging Agent stopped successfully
+2025-05-26 10:44:49 - audit_logger - INFO - Python Logging Agent service stopped

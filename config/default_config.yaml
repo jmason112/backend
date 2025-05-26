@@ -16,11 +16,22 @@ collection:
     sources:
       - "System"
       - "Application"
+<<<<<<< HEAD
     max_records: 100 # Maximum records to collect per cycle
 
   # Security Logs
   security_logs:
     enabled: False
+=======
+      # Note: Security log requires administrator privileges
+      # Uncomment the line below if running as administrator
+      # - "Security"
+    max_records: 100  # Maximum records to collect per cycle
+
+  # Security Logs
+  security_logs:
+    enabled: false
+>>>>>>> bc3d1b7f42c1a0e38f1d618e0e9b4f8d542072e6
     include_authentication: true
     include_policy_changes: true
     include_privilege_use: true
@@ -30,7 +41,15 @@ collection:
     enabled: true
     sources:
       - "Application"
+<<<<<<< HEAD
       - "Microsoft-Windows-*"
+=======
+      # Specific Microsoft Windows logs (safer than wildcards)
+      - "Microsoft-Windows-Kernel-General"
+      # Note: Microsoft-Windows-Security-Auditing requires administrator privileges
+      # Uncomment the line below if running as administrator
+      # - "Microsoft-Windows-Security-Auditing"
+>>>>>>> bc3d1b7f42c1a0e38f1d618e0e9b4f8d542072e6
 
   # System Logs
   system_logs:
